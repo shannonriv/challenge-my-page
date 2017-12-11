@@ -281,13 +281,13 @@
   }
 }
 
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 769px) and (max-width: 991px) {
   .nav-right {
     display: none;
   }
 }
 
-@media (min-width: 993px) {
+@media (min-width: 992px) {
   .bigger {
     font-size: 1.5rem;
   }
@@ -331,7 +331,10 @@ li {
 }
 
 .bg-header {
-  background-color: var(--silver);
+  background-image: url('../assets/images/responsive-pres.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .overlay-title {
@@ -394,16 +397,17 @@ h4 {
   font-size: 1.3rem;
 }
 
-.img {
-  background-color: var(--silver); 
-  font-size: 3rem;
-  font-weight: 300; 
-  padding: 3rem 0;
+img {
+  border-top: 1px solid gainsboro;
+  height: 30%;
+  width: 100%;
 }
 
 .card-cnt {
   padding: 1rem 1rem 0;
   border-bottom: 1px solid gainsboro;
+  border-top: 1px solid gainsboro;
+  
 }
 
 .card-cnt p {
