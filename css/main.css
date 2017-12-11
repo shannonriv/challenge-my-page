@@ -299,6 +299,10 @@
   .mrg-l {
     margin-left: 3rem;
   }
+
+  .nav-icon {
+    display: none;
+  }
 }
 
 header, footer {
@@ -317,6 +321,11 @@ nav {
 .nav-left {
   font-size: 1.25rem;
   float: left;
+}
+
+.nav-icon {
+  float: right;
+  font-size: 1.5rem;
 }
 
 a {
